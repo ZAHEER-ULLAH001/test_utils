@@ -4,7 +4,8 @@ import TextForm from './components/Textform';
 import React, { useState } from 'react';
 import Alert from './components/Alert';
 // import About from './components/About';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Removed 'Switch'
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+ // Removed 'Switch'
 
 function App() {
   const [mode, setMode] = useState('light'); // whether dark mode is enabled or not
